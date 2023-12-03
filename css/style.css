@@ -124,10 +124,26 @@ div{
 }
 
 
+
+@media (min-width:320px) {
+
+    div {
+    
+        display: inline-block;
+          width: 45vw;
+          
+          
+        }
+       
+        img{max-height:30vh;}
+    
+}
+
+
 /* Media query for min-width of 772px      */
 @media (min-width: 772px) {
     div {
-
+    
     display: inline-block;
       width: 45vw;
     }
@@ -144,4 +160,3 @@ div{
       width: 30vw;
     }
   }
-  
